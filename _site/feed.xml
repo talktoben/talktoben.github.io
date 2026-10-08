@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-27T15:44:43-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Talk to Ben</title><subtitle>Ben Mirbagheri — Real Estate across Orange County, Los Angeles &amp; San Diego</subtitle><entry><title type="html">Welcome to the blog — here’s how I’ll use this page</title><link href="http://localhost:4000/blog/welcome-to-the-blog/" rel="alternate" type="text/html" title="Welcome to the blog — here’s how I’ll use this page" /><published>2026-09-27T00:00:00-07:00</published><updated>2026-09-27T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome-to-the-blog</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-the-blog/"><![CDATA[<p>This is a placeholder post so the layout is in place before real content goes up. I’ll use this space for short, practical notes — how a specific neighborhood is trending, what a rate change actually means for a monthly payment, or what to expect during escrow — the kind of thing I’d tell a client over coffee.</p>
+
+<h2 id="how-to-add-a-new-post">How to add a new post</h2>
+
+<p>Create a new file in <code class="language-plaintext highlighter-rouge">_posts/</code> named like <code class="language-plaintext highlighter-rouge">2026-10-15-fall-market-orange-county.md</code>, with front matter at the top:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: "Your Post Title Here"
+---
+Your post content, written in plain Markdown.
+</code></pre></div></div>
+
+<p>Jekyll picks up the date from the filename, builds the page automatically, and it’ll show up on the Insights page in order — newest first. No HTML to write, no manual linking required.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[This is a placeholder post so the layout is in place before real content goes up. I’ll use this space for short, practical notes — how a specific neighborhood is trending, what a rate change actually means for a monthly payment, or what to expect during escrow — the kind of thing I’d tell a client over coffee.]]></summary></entry></feed>

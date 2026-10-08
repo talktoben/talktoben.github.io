@@ -1,0 +1,21 @@
+title: "Talk to Ben"
+description: "Ben Mirbagheri — Real Estate across Orange County, Los Angeles & San Diego"
+url: "https://talktoben.com"
+baseurl: ""
+
+# Where blog posts live once built
+permalink: /blog/:title/
+
+markdown: kramdown
+
+# All three plugins below are on GitHub Pages' supported plugin whitelist,
+# so `github-pages` will build them with no extra setup on GitHub's end.
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,32 @@
+---
+layout: default
+title: Market Insights
+description: "Notes on the Orange County, LA, and San Diego real estate markets from Ben Mirbagheri."
+permalink: /blog.html
+---
+  <section>
+    <div class="wrap">
+      <div class="section-label">Market insights</div>
+      <h1>Notes from the ground</h1>
+      <p>Short, plain-language updates on what's actually happening in Orange County, LA, and San Diego real estate — no jargon, no hype.</p>
+
+      <div class="post-list" style="margin-top:2.4rem;">
+        {% for post in site.posts %}
+        <a href="{{ post.url | relative_url }}" style="text-decoration:none; color:inherit;">
+          <div class="card post-card">
+            <div class="post-thumb"></div>
+            <div>
+              <div class="post-date">{{ post.date | date: '%B %-d, %Y' }}</div>
+              <h3>{{ post.title }}</h3>
+              <p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+            </div>
+          </div>
+        </a>
+        {% else %}
+        <p>No posts yet — add one in <code>_posts/</code> and it'll appear here automatically.</p>
+        {% endfor %}
+      </div>
+
+      <p style="margin-top:2rem; font-size:0.9rem; color:var(--ink-soft);">To add a new post: create a file in <code>_posts/</code> named <code>YYYY-MM-DD-your-title.md</code> with the right front matter, and it appears here automatically — no need to touch this page. See README.md.</p>
+    </div>
+  </section>
